@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Buttons from "./components/Buttons";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,8 +19,8 @@ function App() {
   
   return (
     <>
-      <button name="increase" onClick={update}/>
-      <button name="decrease" onClick={decrement}/>
+      <button onClick={update}>increase</button>
+      <button onClick={decrement}>decrease</button>
       count:{count}
     <nav>
        <Navbar /> 
