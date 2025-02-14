@@ -27,7 +27,7 @@ function App() {
 
 
       <Routes>
-        <Route path="/" element={<Home count={count} />} />
+        <Route path="/backendtest1" element={<Home count={count} />} />
         <Route path="/about" element={<About />} /> 
         <Route path="*" element={"404 not found"}/> 
       </Routes>
